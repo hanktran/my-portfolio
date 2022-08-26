@@ -21,8 +21,8 @@
   align-items: center;
 
   img {
-    width: 90px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -64,13 +64,13 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--secondary-color);
+        color: var(--black-color);
       }
     }
 
     &:hover {
       div {
-        background: var(--secondary-color);
+        background: var(--black-color);
       }
     }
   }
@@ -89,7 +89,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: var(--black-color);
 
   svg {
     width: 70%;
@@ -125,7 +125,7 @@
     svg {
       width: 35px;
       height: 35px;
-      color: var(--secondary-color);
+      color: var(--black-color);
       margin: 0.5rem 1rem;
     }
 
@@ -154,7 +154,7 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            color: var(--secondary-color);
+            color: var(--black-color);
           }
         }
       }
